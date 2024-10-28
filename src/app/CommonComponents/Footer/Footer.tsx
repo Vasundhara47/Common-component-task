@@ -7,8 +7,6 @@ import {
     FooterRightContainer,
     FooterUpperContainer,
     FooterSection,
-    FooterLinks,
-    LinkItem,
     FooterForm
 } from './style'
 import Logo from '../Common/Logo'
@@ -41,7 +39,7 @@ function Footer() {
                     </FooterLeftContainer>
                     <FooterRightContainer>
                         <div>
-                            <Text color='primary' fontWeight='600' variant='body1'>ADDRESS:</Text>
+                            <Text color='primary' fontWeight='600' variant='body1'>NEWSLETTER:</Text>
                             <FooterForm>
                                 <InputField type='email' placeholder='enter your email here' />
                                 <Button title='subscribe' />

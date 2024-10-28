@@ -1,10 +1,8 @@
 import React from 'react'
 import { StyledButton } from './style'
 import Text from '../../Text'
+import { ButtonProps } from '../Button2/types'
 
-interface ButtonProps {
-    title: string
-}
 function Button({ title }: ButtonProps) {
 
     return (

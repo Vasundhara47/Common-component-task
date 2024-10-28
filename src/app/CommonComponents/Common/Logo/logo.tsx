@@ -1,5 +1,5 @@
 import React from 'react'
-import { LogoContainer, LogoText } from './logo.style'
+import { LogoContainer, LogoText } from './style'
 import { LogoProps } from './types'
 
 function Logo({ color }: LogoProps) {

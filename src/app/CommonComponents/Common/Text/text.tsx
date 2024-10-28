@@ -1,11 +1,10 @@
 "use client"
 import React from 'react';
-import { TextProps } from './typex';
+import { TextProps } from './types';
 import { StyledText } from './style';
 
-interface Props extends TextProps { }
 
-function Text({ variant, fontWeight, color, children }: Props) {
+function Text({ variant, fontWeight, color, children }: TextProps) {
     return (
         <StyledText variant={variant} fontWeight={fontWeight} color={color}>
             {children}
